@@ -1,0 +1,114 @@
+:root {
+    --bg-color: #1a1025; /* Tông màu hoàng hôn/bầu trời sao */
+    --text-main: #fff;
+    --accent: #f5d76e;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(180deg, #1f1c3f 0%, #6e4362 50%, #d47e5b 100%);
+    color: var(--text-main);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+h1 {
+    font-family: 'Brush Script MT', cursive; /* Giả lập font chữ ký trong thiết kế */
+    font-size: 4rem;
+    color: var(--accent);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(245, 215, 110, 0.5);
+}
+button#view-all-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+button#view-all-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Carousel Styles */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+}
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+.member-card {
+    text-align: center;
+    opacity: 0.6;
+    transform: scale(0.8);
+    transition: all 0.4s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+/* Hiệu ứng Fade-in khi xuất hiện */
+.fade-in {
+    animation: fadeIn 0.8s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.member-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid transparent;
+    transition: 0.3s;
+}
+.member-card.active {
+    opacity: 1;
+    transform: scale(1.2);
+    z-index: 10;
+}
+.member-card.active img {
+    border-color: #fff;
+    box-shadow: 0 0 20px rgba(255,255,255,0.5);
+}
+.member-card h3, .member-card p { margin: 5px 0; }
+.member-card.active h3 { color: var(--accent); font-size: 1.5rem; }
+
+/* Grid Styles for "View All" */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 40px;
+}
+.grid-container .member-card {
+    opacity: 1;
+    transform: scale(1);
+}
+.hidden { display: none !important; }
+
+/* Navigation buttons */
+.nav-btn {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px; height: 40px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    z-index: 100;
+}

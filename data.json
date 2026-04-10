@@ -1,0 +1,54 @@
+[
+  {
+    "id": "alice",
+    "name": "Alice Nguyen",
+    "title": "Frontend Developer",
+    "image": "https://i.pravatar.cc/150?img=47",
+    "email": "alice.nguyen@email.com",
+    "phone": "(123) 456-7890",
+    "location": "San Francisco, CA",
+    "profile": "Aspiring frontend developer with a passion for creating beautiful and user-friendly web applications. Eager to learn and contribute to innovative projects.",
+    "skills": [
+      {"name": "HTML & CSS", "level": 90},
+      {"name": "JavaScript (ES6+)", "level": 85},
+      {"name": "React.js", "level": 75},
+      {"name": "Responsive Design", "level": 95}
+    ],
+    "experience": [
+      {
+        "role": "Web Development Intern",
+        "company": "Tech Solutions Inc.",
+        "time": "Summer 2021",
+        "desc": ["Assisted in building company website using HTML, CSS.", "Collaborated with senior developers."]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "University of California",
+        "time": "2019 - 2023"
+      }
+    ],
+    "social": {
+      "linkedin": "linkedin.com/in/alicenguyen",
+      "github": "github.com/alicenguyen"
+    }
+  },
+  {
+    "id": "david",
+    "name": "David Pham",
+    "title": "Future Data Scientist",
+    "image": "https://i.pravatar.cc/150?img=11",
+    "email": "david.pham@email.com",
+    "phone": "(123) 456-7891",
+    "location": "New York, NY",
+    "profile": "Data enthusiast building machine learning models.",
+    "skills": [
+      {"name": "Python", "level": 95},
+      {"name": "SQL", "level": 80}
+    ],
+    "experience": [],
+    "education": [],
+    "social": {}
+  }
+]

@@ -1,0 +1,66 @@
+:root {
+    /* Light Theme (Mặc định) */
+    --bg-body: #f4f4f9;
+    --bg-cv: #ffffff;
+    --text-main: #333;
+    --text-light: #666;
+    --primary-color: #2c5282; /* Màu xanh biển trong thiết kế */
+    --border-color: #e2e8f0;
+}
+/* Dark Theme class */
+body.dark-mode {
+    --bg-body: #1a202c;
+    --bg-cv: #2d3748;
+    --text-main: #f7fafc;
+    --text-light: #e2e8f0;
+    --primary-color: #63b3ed;
+    --border-color: #4a5568;
+}
+
+body {
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    font-family: 'Arial', sans-serif;
+    margin: 0; padding: 20px;
+    transition: background-color 0.3s ease;
+}
+.controls { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; }
+.btn { padding: 10px 15px; border: none; background: var(--primary-color); color: white; border-radius: 5px; cursor: pointer; text-decoration: none; }
+
+.cv-wrapper {
+    background: var(--bg-cv);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Chia 2 cột: Trái(1 phần) - Phải(2 phần) */
+    gap: 40px;
+}
+
+/* Typography & Layout */
+h1 { color: var(--primary-color); font-family: 'Brush Script MT', cursive; font-size: 3rem; margin: 0;}
+h2 { color: var(--primary-color); border-bottom: 2px solid var(--primary-color); padding-bottom: 5px; margin-top: 30px;}
+.sidebar img { width: 100%; border-radius: 10px; }
+.sidebar ul { list-style: none; padding: 0; }
+.sidebar ul li { margin-bottom: 10px; }
+
+/* Progress Bar cho Skills */
+.skill-bar {
+    background: var(--border-color);
+    border-radius: 5px;
+    height: 10px;
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.skill-progress {
+    background: var(--primary-color);
+    height: 100%;
+}
+
+/* Tối ưu hóa khi in/xuất PDF */
+@media print {
+    .controls { display: none; }
+    .cv-wrapper { box-shadow: none; padding: 0; max-width: 100%; }
+}
