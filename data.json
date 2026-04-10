@@ -124,23 +124,6 @@
     }
   },
   {
-    "id": "mai-doan-trung-kien",
-    "name": "Mai Đoàn Trung Kiên",
-    "title": "Backend Developer",
-    "image": "img/mai-doan-trung-kien.jpg",
-    "email": "michael.t@email.com",
-    "phone": "(123) 456-7892",
-    "location": "Austin, TX",
-    "profile": "Passionate about building scalable backend systems.",
-    "skills": [
-      {"name": "Node.js", "level": 90},
-      {"name": "MongoDB", "level": 85}
-    ],
-    "experience": [],
-    "education": [],
-    "social": {}
-  },
-  {
     "id": "tran-nguyen-duc-anh",
     "name": "Trần Nguyễn Đức Anh",
     "title": "UX/UI Designer",
