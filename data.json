@@ -2,36 +2,57 @@
   {
     "id": "bui-duc-anh",
     "name": "Bùi Đức Anh",
-    "title": "Frontend Developer",
+    "title": "Project Manager / QA Tester",
     "image": "img/bui-duc-anh.jpg",
-    "email": "alice.nguyen@email.com",
-    "phone": "(123) 456-7890",
-    "location": "San Francisco, CA",
-    "profile": "Aspiring frontend developer with a passion for creating beautiful and user-friendly web applications. Eager to learn and contribute to innovative projects.",
+    "email": "anhduc21165@email.com",
+    "phone": "(84) 978797605",
+    "location": "Ha Noi, Viet Nam",
+    "profile": "Detail-oriented Project Manager and QA Tester with strong organizational and problem-solving skills. Experienced in coordinating team workflows, ensuring product quality, and delivering projects on time. Passionate about improving user experience through structured testing and efficient project execution.",
+
     "skills": [
-      {"name": "HTML & CSS", "level": 90},
-      {"name": "JavaScript (ES6+)", "level": 85},
-      {"name": "React.js", "level": 75},
-      {"name": "Responsive Design", "level": 95}
+      {"name": "Project Management", "level": 80},
+      {"name": "Manual Testing", "level": 85},
+      {"name": "Test Case Design", "level": 80},
+      {"name": "Agile / Scrum", "level": 85},
+      {"name": "Bug Tracking (Jira)", "level": 80},
+      {"name": "Communication & Team Coordination", "level": 90}
     ],
+
     "experience": [
       {
-        "role": "Web Development Intern",
+        "role": "Project Manager / QA Tester",
+        "company": "FPT University Project SWP",
+        "time": "2023 - Present",
+        "desc": [
+          "Managed project timeline, task distribution, and team coordination.",
+          "Designed and executed test cases to ensure system quality.",
+          "Tracked bugs and reported issues using Jira.",
+          "Collaborated with developers to fix and verify defects."
+        ]
+      },
+      {
+        "role": "QA Intern",
         "company": "Tech Solutions Inc.",
-        "time": "Summer 2021",
-        "desc": ["Assisted in building company website using HTML, CSS.", "Collaborated with senior developers."]
+        "time": "Summer 2023",
+        "desc": [
+          "Performed manual testing on web applications.",
+          "Wrote test cases and test reports.",
+          "Identified UI/UX issues and reported bugs."
+        ]
       }
     ],
+
     "education": [
       {
-        "degree": "Bachelor of Science in Computer Science",
-        "school": "University of California",
-        "time": "2019 - 2023"
+        "degree": "IELTS :7.0",
+        "school": "FPT University",
+        "time": "2023 - Now"
       }
     ],
+
     "social": {
-      "linkedin": "linkedin.com/in/alicenguyen",
-      "github": "github.com/alicenguyen"
+      "linkedin": "https://linkedin.com/in/buiducanh",
+      "github": "https://github.com/ducanhsieucapdeptrai"
     }
   },
   {
