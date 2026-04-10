@@ -174,8 +174,20 @@
       {"name": "MySQL", "level": 90}
     ],
     "experience": [],
-    "education": [],
-    "social": {}
+    "education": [
+      {
+        "degree": "High School Student",
+        "time": "2020 - 2023"
+      },
+      {
+        "degree": "University Student",
+        "school": "FPT University",
+        "time": "2023 - Present"
+      }
+    ],
+    "social": {
+      "github": "https://github.com/BachL312"
+    }
   },
   {
     "id": "hoang-duc-thuan",
