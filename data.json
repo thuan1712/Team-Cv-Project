@@ -105,15 +105,15 @@
   {
     "id": "lam-bach",
     "name": "Lâm Bách",
-    "title": "Product Manager",
+    "title": "Full Stack Developer",
     "image": "img/lam-bach.jpg",
-    "email": "jessica.v@email.com",
-    "phone": "(123) 456-7895",
-    "location": "Chicago, IL",
-    "profile": "Bridging the gap between engineering and user needs.",
+    "email": "lambach3122004@gmail.com",
+    "phone": "(84) 373126666",
+    "location": "Ha Noi, Viet Nam",
+    "profile": "Hesitation is defeat",
     "skills": [
-      {"name": "Agile", "level": 95},
-      {"name": "Jira", "level": 90}
+      {"name": "Java", "level": 95},
+      {"name": "MySQL", "level": 90}
     ],
     "experience": [],
     "education": [],
