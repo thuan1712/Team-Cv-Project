@@ -190,20 +190,42 @@
     }
   },
   {
-    "id": "hoang-duc-thuan",
-    "name": "Hoàng Đức Thuận",
-    "title": "Mobile Developer",
-    "image": "img/hoang-duc-thuan.jpg",
-    "email": "ryan.le@email.com",
-    "phone": "(123) 456-7896",
-    "location": "Los Angeles, CA",
-    "profile": "Crafting native and cross-platform mobile apps.",
-    "skills": [
-      {"name": "Flutter", "level": 85},
-      {"name": "Swift", "level": 80}
-    ],
-    "experience": [],
-    "education": [],
-    "social": {}
+  "id": "hoang-duc-thuan",
+  "name": "Hoàng Đức Thuận",
+  "title": "Java Intern",
+  "image": "img/hoang-duc-thuan.png",
+  "email": "thuanhdhe186818@fpt.edu.vn",
+  "phone": "0777560391",
+  "location": "Hoa Lac, Hanoi",
+  "profile": "Actively seeking a challenging environment to leverage my Back-end expertise in Spring Boot, database optimization, and robust APIs. My goal is to contribute to building scalable, high-impact software solutions that deliver practical business value.",
+  "skills": [
+    {"name": "Java Core", "level": 85},
+    {"name": "Spring Boot / Spring MVC / JPA", "level": 80},
+    {"name": "MySQL / SQL Server", "level": 75},
+    {"name": "HTML/CSS, Javascript", "level": 70}
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Developer (Personal Project)",
+      "company": "Website hệ thống Quản Lý Bất Động Sản",
+      "time": "",
+      "desc": [
+        "Authentication: User login system with Role-Based Access Control.",
+        "Building Management: Search, add, edit, delete, and assign buildings.",
+        "Customer Management: Search, add, edit, delete, and assign customers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Major: Software Engineering",
+      "school": "FPT University Hanoi",
+      "time": "2022 - 2027"
+    }
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/hoang-duc-thuan-undefined-7582b430b/",
+    "github": "github.com/thuan1712"
   }
+}
 ]
