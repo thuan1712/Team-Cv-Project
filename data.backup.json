@@ -58,70 +58,19 @@
   {
     "id": "doan-vu-ha-anh",
     "name": "Đoàn Vũ Hà Anh",
-    "title": "Frontend Developer",
-    "image": "img/HaAnh.jpg",
-    "email": "dvhalqm3@gmail.com",
-    "phone": "0344 244 980",
-    "location": "Ha Noi, Vietnam",
-    "profile": "Frontend Developer with hands-on experience delivering responsive and user-centric web applications. Strong in building scalable UI, collaborating with cross-functional teams, and translating business requirements into high-quality products. Proven ability to take ownership of features, optimize performance, and improve user experience in real-world projects.",
+    "title": "Future Data Scientist",
+    "image": "img/doan-vu-ha-anh.jpg",
+    "email": "david.pham@email.com",
+    "phone": "(123) 456-7891",
+    "location": "New York, NY",
+    "profile": "Data enthusiast building machine learning models.",
     "skills": [
-      {"name": "HTML, CSS, JavaScript", "level": 90},
-      {"name": "ReactJS", "level": 85},
-      {"name": "Responsive Web Design", "level": 85},
-      {"name": "Team Collaboration & Agile Workflow", "level": 85},
-      {"name": "Data Visualization (Power BI)", "level": 80},
-      {"name": "Git & Version Control", "level": 95},
-      {"name": "SQL & Database Management", "level": 85}
+      {"name": "Python", "level": 95},
+      {"name": "SQL", "level": 80}
     ],
-    "experience": [
-      {
-        "role": "Frontend Developer",
-        "company": "Mobile Web Store",
-        "time": "01/2025 - 02/2025",
-        "desc": [
-          "Developed and maintained a responsive e-commerce web application for mobile users.",
-          "Owned key UI features including product listing, search, cart, and checkout flows.",
-          "Collaborated with backend developers to integrate APIs and ensure seamless data flow.",
-          "Improved page performance and user experience through UI optimization techniques.",
-          "Participated in testing, debugging, and resolving production issues."
-        ]
-      },
-      {
-        "role": "Frontend Developer",
-        "company": "Food Ordering Platform",
-        "time": "03/2025 - 06/2025",
-        "desc": [
-          "Led frontend development for a food ordering system with a focus on usability and clean design.",
-          "Designed and implemented responsive interfaces across multiple devices.",
-          "Worked closely with designers to translate UI/UX concepts into functional interfaces.",
-          "Enhanced user engagement by optimizing layout, navigation, and interaction flow.",
-          "Ensured cross-browser compatibility and consistent performance."
-        ]
-      },
-      {
-        "role": "Full-stack Developer",
-        "company": "Gym Management System",
-        "time": "07/2025 - 11/2025",
-        "desc": [
-          "Developed a role-based management system supporting Admin, Trainer, and Member workflows.",
-          "Implemented core features including user management, service tracking, and authentication.",
-          "Applied MVC architecture and managed session handling for secure access control.",
-          "Integrated frontend with backend services using Java (JSP/Servlet) and SQL Server.",
-          "Collaborated in a team environment, contributing to system design and feature planning."
-        ]
-      }
-    ],
-    "education": [
-      {
-        "degree": "Bachelor of Software Engineering",
-        "school": "FPT University",
-        "time": "2022 - 2025"
-      }
-    ],
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/h%C3%A0-anh-%C4%91o%C3%A0n-v%C5%A9-3225433b9/",
-      "github": "https://github.com/Anhdvhhe186779"
-    }
+    "experience": [],
+    "education": [],
+    "social": {}
   },
   {
     "id": "mai-doan-trung-kien",
