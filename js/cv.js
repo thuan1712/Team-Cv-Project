@@ -21,16 +21,16 @@ function renderCV(member) {
     // Khối HTML cho Progress Bar
     const skillsHTML = member.skills.map(skill => `
         <li>
-            ${skill.name}
+            <span><i class='bx border-2 bx-check-circle'></i> ${skill.name}</span>
             <div class="skill-bar">
-                <div class="skill-progress" style="width: ${skill.level}%"></div>
+                <div class="skill-progress" data-width="${skill.level}%"></div>
             </div>
         </li>
     `).join('');
 
     const expHTML = member.experience.map(exp => `
         <div class="exp-item">
-            <h4>${exp.role} - <span>${exp.company}</span> <small style="float:right">${exp.time}</small></h4>
+            <h4>${exp.role} - <span>${exp.company}</span> <span class="time-badge"><i class='bx bx-calendar'></i> ${exp.time}</span></h4>
             <ul>${exp.desc.map(d => `<li>${d}</li>`).join('')}</ul>
         </div>
     `).join('');
@@ -40,9 +40,9 @@ function renderCV(member) {
             <img src="${member.image}" alt="${member.name}">
             <h2>Contact</h2>
             <ul>
-                <li>📧 ${member.email}</li>
-                <li>📞 ${member.phone}</li>
-                <li>📍 ${member.location}</li>
+                <li><i class='bx bx-envelope'></i> ${member.email}</li>
+                <li><i class='bx bx-phone'></i> ${member.phone}</li>
+                <li><i class='bx bx-map'></i> ${member.location}</li>
             </ul>
             
             <h2>Skills</h2>
@@ -50,8 +50,8 @@ function renderCV(member) {
 
             <h2>Links</h2>
             <ul>
-                <li>🔗 <a href="https://${member.social.linkedin}" target="_blank">LinkedIn</a></li>
-                <li>💻 <a href="https://${member.social.github}" target="_blank">GitHub</a></li>
+                <li><i class='bx bxl-linkedin-square'></i> <a href="${member.social.linkedin}" target="_blank">LinkedIn</a></li>
+                <li><i class='bx bxl-github' ></i> <a href="${member.social.github}" target="_blank">GitHub</a></li>
             </ul>
         </div>
 
@@ -62,22 +62,40 @@ function renderCV(member) {
             </div>
 
             <h2>Profile</h2>
-            <p>${member.profile}</p>
+            <p class="profile-text">${member.profile}</p>
 
             <h2>Experience</h2>
             ${expHTML || '<p>No experience listed.</p>'}
 
             <h2>Education</h2>
             ${member.education.map(edu => `
-                <p><strong>${edu.degree}</strong><br>${edu.school} (${edu.time})</p>
+                <div class="exp-item">
+                    <h4>${edu.degree} <span class="time-badge"><i class='bx bx-calendar'></i> ${edu.time}</span></h4>
+                    <p style="color: var(--text-light); margin: 5px 0 0 0;">${edu.school}</p>
+                </div>
             `).join('')}
         </div>
     `;
+
+    // Kích hoạt animation chạy thanh skill
+    setTimeout(() => {
+        const progressBars = document.querySelectorAll('.skill-progress');
+        progressBars.forEach(bar => {
+            bar.style.width = bar.getAttribute('data-width');
+        });
+    }, 100);
 }
 
 // Tính năng Dark/Light Theme
 document.getElementById('theme-toggle').addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
+    document.body.classList.toggle('light-mode');
+    const isLight = document.body.classList.contains('light-mode');
+    const btn = document.getElementById('theme-toggle');
+    if (isLight) {
+        btn.innerHTML = "<i class='bx bx-sun'></i> Theme";
+    } else {
+        btn.innerHTML = "<i class='bx bx-moon'></i> Theme";
+    }
 });
 
 // Tính năng Xuất PDF sử dụng html2pdf

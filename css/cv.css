@@ -1,66 +1,262 @@
 :root {
-    /* Light Theme (Mặc định) */
-    --bg-body: #f4f4f9;
-    --bg-cv: #ffffff;
-    --text-main: #333;
-    --text-light: #666;
-    --primary-color: #2c5282; /* Màu xanh biển trong thiết kế */
-    --border-color: #e2e8f0;
+    /* Premium Dark Theme */
+    --bg-body: #0f172a;
+    --bg-cv: rgba(30, 41, 59, 0.7);
+    --text-main: #f8fafc;
+    --text-light: #94a3b8;
+    --primary-color: #38bdf8;
+    --primary-dark: #0284c7;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --glass-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    --card-radius: 20px;
 }
-/* Dark Theme class */
-body.dark-mode {
-    --bg-body: #1a202c;
-    --bg-cv: #2d3748;
-    --text-main: #f7fafc;
-    --text-light: #e2e8f0;
-    --primary-color: #63b3ed;
-    --border-color: #4a5568;
+
+body.light-mode {
+    --bg-body: #f1f5f9;
+    --bg-cv: rgba(255, 255, 255, 0.85);
+    --text-main: #0f172a;
+    --text-light: #64748b;
+    --primary-color: #2563eb;
+    --primary-dark: #1d4ed8;
+    --border-color: rgba(0, 0, 0, 0.1);
+    --glass-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
 }
 
 body {
     background-color: var(--bg-body);
+    background-image: radial-gradient(circle at 15% 50%, rgba(56, 189, 248, 0.05), transparent 25%),
+                      radial-gradient(circle at 85% 30%, rgba(139, 92, 246, 0.05), transparent 25%);
     color: var(--text-main);
-    font-family: 'Arial', sans-serif;
-    margin: 0; padding: 20px;
-    transition: background-color 0.3s ease;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    transition: background-color 0.4s ease;
+    min-height: 100vh;
 }
-.controls { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; }
-.btn { padding: 10px 15px; border: none; background: var(--primary-color); color: white; border-radius: 5px; cursor: pointer; text-decoration: none; }
 
+/* Floating Controls Toolbar */
+.sticky-controls {
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    background: var(--bg-cv);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn i { font-size: 1.1rem; }
+
+.btn-primary {
+    background: var(--primary-color);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(56, 189, 248, 0.4);
+}
+
+.btn-outline, .btn-icon {
+    background: transparent;
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+}
+
+.btn-outline:hover, .btn-icon:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+/* CV Wrapper - Glassmorphism Card */
 .cv-wrapper {
     background: var(--bg-cv);
-    max-width: 900px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 40px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 50px;
+    border-radius: var(--card-radius);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--glass-shadow);
     display: grid;
-    grid-template-columns: 1fr 2fr; /* Chia 2 cột: Trái(1 phần) - Phải(2 phần) */
-    gap: 40px;
+    grid-template-columns: 1fr 2.2fr;
+    gap: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Decorative element inside CV */
+.cv-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 6px;
+    background: linear-gradient(90deg, #38bdf8, #8b5cf6, #ec4899);
 }
 
 /* Typography & Layout */
-h1 { color: var(--primary-color); font-family: 'Brush Script MT', cursive; font-size: 3rem; margin: 0;}
-h2 { color: var(--primary-color); border-bottom: 2px solid var(--primary-color); padding-bottom: 5px; margin-top: 30px;}
-.sidebar img { width: 100%; border-radius: 10px; }
-.sidebar ul { list-style: none; padding: 0; }
-.sidebar ul li { margin-bottom: 10px; }
+h1 { 
+    color: var(--text-main); 
+    font-family: 'Outfit', sans-serif; 
+    font-size: 3.5rem; 
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 5px 0;
+    letter-spacing: -1px;
+}
+h2 { 
+    color: var(--primary-color); 
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-color); 
+    padding-bottom: 10px; 
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+p, li {
+    line-height: 1.7;
+}
 
-/* Progress Bar cho Skills */
+/* Sidebar Profile */
+.sidebar img { 
+    width: 100%; 
+    border-radius: 16px; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin-bottom: 25px;
+    border: 2px solid var(--border-color);
+}
+.sidebar ul { list-style: none; padding: 0; margin: 0; }
+.sidebar ul li { margin-bottom: 15px; color: var(--text-light); display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; }
+.sidebar ul li i { color: var(--primary-color); font-size: 1.2rem; margin-top: 3px; }
+.sidebar a { color: var(--primary-color); text-decoration: none; transition: 0.2s;}
+.sidebar a:hover { color: var(--primary-dark); text-decoration: underline;}
+
+/* Skills Progress Bar */
 .skill-bar {
-    background: var(--border-color);
-    border-radius: 5px;
-    height: 10px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    height: 8px;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 8px;
     overflow: hidden;
+    border: 1px solid var(--border-color);
 }
 .skill-progress {
-    background: var(--primary-color);
+    background: linear-gradient(90deg, var(--primary-dark), var(--primary-color));
     height: 100%;
+    border-radius: 10px;
+    width: 0; /* Cho Animation load up */
+    transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-/* Tối ưu hóa khi in/xuất PDF */
+/* Experience Layout */
+.exp-item {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border-left: 2px solid var(--border-color);
+}
+.exp-item::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color);
+}
+.exp-item h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    font-family: 'Outfit', sans-serif;
+}
+.exp-item h4 span {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.exp-item .time-badge {
+    float: right;
+    background: rgba(56, 189, 248, 0.1);
+    color: var(--primary-color);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.exp-item ul {
+    color: var(--text-light);
+    padding-left: 20px;
+}
+.exp-item ul li {
+    margin-bottom: 8px;
+}
+
+/* Content Blocks */
+.main-content h3 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+.profile-text {
+    font-size: 1.05rem;
+    color: var(--text-light);
+}
+
+/* Print Optimization */
 @media print {
-    .controls { display: none; }
-    .cv-wrapper { box-shadow: none; padding: 0; max-width: 100%; }
+    body { background: white; margin: 0; padding: 0;}
+    .sticky-controls { display: none; }
+    .cv-wrapper { 
+        box-shadow: none; 
+        padding: 0; 
+        max-width: 100%; 
+        border: none;
+        grid-template-columns: 1fr 2fr;
+        color: #000;
+        backdrop-filter: none;
+        background: white;
+    }
+    .cv-wrapper::before { display: none; }
+    h1, h2, h3, p, li, .sidebar ul li, .profile-text { color: #000 !important; }
+    .skill-progress { background: #000 !important; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cv-wrapper { grid-template-columns: 1fr; padding: 30px; }
+    .sticky-controls { flex-wrap: wrap; }
+    .exp-item .time-badge { float: none; display: inline-block; margin-left: 0; margin-top: 10px; }
 }
