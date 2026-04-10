@@ -124,6 +124,23 @@
     }
   },
   {
+    "id": "mai-doan-trung-kien",
+    "name": "Mai Đoàn Trung Kiên",
+    "title": "Backend Developer",
+    "image": "img/mai-doan-trung-kien.jpg",
+    "email": "maikien670@email.com",
+    "phone": "0383000320",
+    "location": "HD,HP, VN",
+    "profile": "Passionate about building scalable backend systems.",
+    "skills": [
+      {"name": "#Net", "level": 90},
+      {"name": "MongoDB", "level": 85}
+    ],
+    "experience": [],
+    "education": [],
+    "social": {}
+  },
+  {
     "id": "tran-nguyen-duc-anh",
     "name": "Trần Nguyễn Đức Anh",
     "title": "UX/UI Designer",
