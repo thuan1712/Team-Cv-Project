@@ -1,139 +1,74 @@
 [
   {
-    "id": "bui-duc-anh",
-    "name": "Bùi Đức Anh",
-    "title": "Frontend Developer",
-    "image": "img/bui-duc-anh.jpg",
-    "email": "alice.nguyen@email.com",
-    "phone": "(123) 456-7890",
-    "location": "San Francisco, CA",
-    "profile": "Aspiring frontend developer with a passion for creating beautiful and user-friendly web applications. Eager to learn and contribute to innovative projects.",
-    "skills": [
-      {"name": "HTML & CSS", "level": 90},
-      {"name": "JavaScript (ES6+)", "level": 85},
-      {"name": "React.js", "level": 75},
-      {"name": "Responsive Design", "level": 95}
-    ],
-    "experience": [
-      {
-        "role": "Web Development Intern",
-        "company": "Tech Solutions Inc.",
-        "time": "Summer 2021",
-        "desc": ["Assisted in building company website using HTML, CSS.", "Collaborated with senior developers."]
-      }
-    ],
-    "education": [
-      {
-        "degree": "Bachelor of Science in Computer Science",
-        "school": "University of California",
-        "time": "2019 - 2023"
-      }
-    ],
-    "social": {
-      "linkedin": "linkedin.com/in/alicenguyen",
-      "github": "github.com/alicenguyen"
-    }
-  },
-  {
     "id": "doan-vu-ha-anh",
     "name": "Đoàn Vũ Hà Anh",
-    "title": "Future Data Scientist",
-    "image": "img/doan-vu-ha-anh.jpg",
-    "email": "david.pham@email.com",
-    "phone": "(123) 456-7891",
-    "location": "New York, NY",
-    "profile": "Data enthusiast building machine learning models.",
+    "title": "Frontend Developer",
+    "image": "img/HaAnh.jpg",
+    "email": "dvhalqm3@gmail.com",
+    "phone": "0344 244 980",
+    "location": "Ha Noi, Vietnam",
+    "profile": "Frontend Developer with hands-on experience delivering responsive and user-centric web applications. Strong in building scalable UI, collaborating with cross-functional teams, and translating business requirements into high-quality products. Proven ability to take ownership of features, optimize performance, and improve user experience in real-world projects.",
+
     "skills": [
-      {"name": "Python", "level": 95},
-      {"name": "SQL", "level": 80}
+      {"name": "HTML, CSS, JavaScript", "level": 90},
+      {"name": "ReactJS", "level": 85},
+      {"name": "Responsive Web Design", "level": 85},
+      {"name": "Team Collaboration & Agile Workflow", "level": 85},
+      {"name": "Data Visualization (Power BI)", "level": 80},
+      {"name": "Git & Version Control", "level": 95},
+      {"name": "SQL & Database Management", "level": 85}
     ],
-    "experience": [],
-    "education": [],
-    "social": {}
-  },
-  {
-    "id": "mai-doan-trung-kien",
-    "name": "Mai Đoàn Trung Kiên",
-    "title": "Backend Developer",
-    "image": "img/mai-doan-trung-kien.jpg",
-    "email": "michael.t@email.com",
-    "phone": "(123) 456-7892",
-    "location": "Austin, TX",
-    "profile": "Passionate about building scalable backend systems.",
-    "skills": [
-      {"name": "Node.js", "level": 90},
-      {"name": "MongoDB", "level": 85}
+
+    "experience": [
+      {
+        "role": "Frontend Developer",
+        "company": "Mobile Web Store",
+        "time": "01/2025 - 02/2025",
+        "desc": [
+          "Developed and maintained a responsive e-commerce web application for mobile users.",
+          "Owned key UI features including product listing, search, cart, and checkout flows.",
+          "Collaborated with backend developers to integrate APIs and ensure seamless data flow.",
+          "Improved page performance and user experience through UI optimization techniques.",
+          "Participated in testing, debugging, and resolving production issues."
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Food Ordering Platform",
+        "time": "03/2025 - 06/2025",
+        "desc": [
+          "Led frontend development for a food ordering system with a focus on usability and clean design.",
+          "Designed and implemented responsive interfaces across multiple devices.",
+          "Worked closely with designers to translate UI/UX concepts into functional interfaces.",
+          "Enhanced user engagement by optimizing layout, navigation, and interaction flow.",
+          "Ensured cross-browser compatibility and consistent performance."
+        ]
+      },
+      {
+        "role": "Full-stack Developer",
+        "company": "Gym Management System",
+        "time": "07/2025 - 11/2025",
+        "desc": [
+          "Developed a role-based management system supporting Admin, Trainer, and Member workflows.",
+          "Implemented core features including user management, service tracking, and authentication.",
+          "Applied MVC architecture and managed session handling for secure access control.",
+          "Integrated frontend with backend services using Java (JSP/Servlet) and SQL Server.",
+          "Collaborated in a team environment, contributing to system design and feature planning."
+        ]
+      }
     ],
-    "experience": [],
-    "education": [],
-    "social": {}
-  },
-  {
-    "id": "tran-nguyen-duc-anh",
-    "name": "Trần Nguyễn Đức Anh",
-    "title": "UX/UI Designer",
-    "image": "img/tran-nguyen-duc-anh.jpg",
-    "email": "sarah.lee@email.com",
-    "phone": "(123) 456-7893",
-    "location": "Seattle, WA",
-    "profile": "Designing intuitive interfaces for better user experiences.",
-    "skills": [
-      {"name": "Figma", "level": 95},
-      {"name": "Adobe XD", "level": 80}
+
+    "education": [
+      {
+        "degree": "Bachelor of Software Engineering",
+        "school": "FPT University",
+        "time": "2022 - 2025"
+      }
     ],
-    "experience": [],
-    "education": [],
-    "social": {}
-  },
-  {
-    "id": "dao-quang-minh",
-    "name": "Đào Quang Minh",
-    "title": "DevOps Engineer",
-    "image": "img/dao-quang-minh.jpg",
-    "email": "kevin.h@email.com",
-    "phone": "(123) 456-7894",
-    "location": "Denver, CO",
-    "profile": "Streamlining deployment and operations.",
-    "skills": [
-      {"name": "Docker", "level": 90},
-      {"name": "AWS", "level": 85}
-    ],
-    "experience": [],
-    "education": [],
-    "social": {}
-  },
-  {
-    "id": "lam-bach",
-    "name": "Lâm Bách",
-    "title": "Product Manager",
-    "image": "img/lam-bach.jpg",
-    "email": "jessica.v@email.com",
-    "phone": "(123) 456-7895",
-    "location": "Chicago, IL",
-    "profile": "Bridging the gap between engineering and user needs.",
-    "skills": [
-      {"name": "Agile", "level": 95},
-      {"name": "Jira", "level": 90}
-    ],
-    "experience": [],
-    "education": [],
-    "social": {}
-  },
-  {
-    "id": "hoang-duc-thuan",
-    "name": "Hoàng Đức Thuận",
-    "title": "Mobile Developer",
-    "image": "img/hoang-duc-thuan.jpg",
-    "email": "ryan.le@email.com",
-    "phone": "(123) 456-7896",
-    "location": "Los Angeles, CA",
-    "profile": "Crafting native and cross-platform mobile apps.",
-    "skills": [
-      {"name": "Flutter", "level": 85},
-      {"name": "Swift", "level": 80}
-    ],
-    "experience": [],
-    "education": [],
-    "social": {}
+
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/h%C3%A0-anh-%C4%91o%C3%A0n-v%C5%A9-3225433b9/",
+      "github": "https://github.com/Anhdvhhe186779"
+    }
   }
 ]
