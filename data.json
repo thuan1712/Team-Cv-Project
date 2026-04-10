@@ -1,75 +1,231 @@
 [
-
   {
-    "id": "doan-vu-ha-anh",
-    "name": "Đoàn Vũ Hà Anh",
-    "title": "Frontend Developer",
-    "image": "img/HaAnh.jpg",
-    "email": "dvhalqm3@gmail.com",
-    "phone": "0344 244 980",
-    "location": "Ha Noi, Vietnam",
-    "profile": "Frontend Developer with hands-on experience delivering responsive and user-centric web applications. Strong in building scalable UI, collaborating with cross-functional teams, and translating business requirements into high-quality products. Proven ability to take ownership of features, optimize performance, and improve user experience in real-world projects.",
+    "id": "bui-duc-anh",
+    "name": "Bùi Đức Anh",
+    "title": "Project Manager / QA Tester",
+    "image": "img/bui-duc-anh.jpg",
+    "email": "anhduc21165@email.com",
+    "phone": "(84) 978797605",
+    "location": "Ha Noi, Viet Nam",
+    "profile": "Detail-oriented Project Manager and QA Tester with strong organizational and problem-solving skills. Experienced in coordinating team workflows, ensuring product quality, and delivering projects on time. Passionate about improving user experience through structured testing and efficient project execution.",
 
     "skills": [
-      {"name": "HTML, CSS, JavaScript", "level": 90},
-      {"name": "ReactJS", "level": 85},
-      {"name": "Responsive Web Design", "level": 85},
-      {"name": "Team Collaboration & Agile Workflow", "level": 85},
-      {"name": "Data Visualization (Power BI)", "level": 80},
-      {"name": "Git & Version Control", "level": 95},
-      {"name": "SQL & Database Management", "level": 85}
+      {"name": "Project Management", "level": 80},
+      {"name": "Manual Testing", "level": 85},
+      {"name": "Test Case Design", "level": 80},
+      {"name": "Agile / Scrum", "level": 85},
+      {"name": "Bug Tracking (Jira)", "level": 80},
+      {"name": "Communication & Team Coordination", "level": 90}
     ],
 
     "experience": [
       {
-        "role": "Frontend Developer",
-        "company": "Mobile Web Store",
-        "time": "01/2025 - 02/2025",
+        "role": "Project Manager / QA Tester",
+        "company": "FPT University Project SWP",
+        "time": "2023 - Present",
         "desc": [
-          "Developed and maintained a responsive e-commerce web application for mobile users.",
-          "Owned key UI features including product listing, search, cart, and checkout flows.",
-          "Collaborated with backend developers to integrate APIs and ensure seamless data flow.",
-          "Improved page performance and user experience through UI optimization techniques.",
-          "Participated in testing, debugging, and resolving production issues."
+          "Managed project timeline, task distribution, and team coordination.",
+          "Designed and executed test cases to ensure system quality.",
+          "Tracked bugs and reported issues using Jira.",
+          "Collaborated with developers to fix and verify defects."
         ]
       },
       {
-        "role": "Frontend Developer",
-        "company": "Food Ordering Platform",
-        "time": "03/2025 - 06/2025",
+        "role": "QA Intern",
+        "company": "Tech Solutions Inc.",
+        "time": "Summer 2023",
         "desc": [
-          "Led frontend development for a food ordering system with a focus on usability and clean design.",
-          "Designed and implemented responsive interfaces across multiple devices.",
-          "Worked closely with designers to translate UI/UX concepts into functional interfaces.",
-          "Enhanced user engagement by optimizing layout, navigation, and interaction flow.",
-          "Ensured cross-browser compatibility and consistent performance."
-        ]
-      },
-      {
-        "role": "Full-stack Developer",
-        "company": "Gym Management System",
-        "time": "07/2025 - 11/2025",
-        "desc": [
-          "Developed a role-based management system supporting Admin, Trainer, and Member workflows.",
-          "Implemented core features including user management, service tracking, and authentication.",
-          "Applied MVC architecture and managed session handling for secure access control.",
-          "Integrated frontend with backend services using Java (JSP/Servlet) and SQL Server.",
-          "Collaborated in a team environment, contributing to system design and feature planning."
+          "Performed manual testing on web applications.",
+          "Wrote test cases and test reports.",
+          "Identified UI/UX issues and reported bugs."
         ]
       }
     ],
 
     "education": [
       {
-        "degree": "Bachelor of Software Engineering",
+        "degree": "IELTS :7.0",
         "school": "FPT University",
-        "time": "2022 - 2025"
+        "time": "2023 - Now"
       }
     ],
 
     "social": {
-      "linkedin": "https://www.linkedin.com/in/h%C3%A0-anh-%C4%91o%C3%A0n-v%C5%A9-3225433b9/",
-      "github": "https://github.com/Anhdvhhe186779"
+      "linkedin": "https://linkedin.com/in/buiducanh",
+      "github": "https://github.com/ducanhsieucapdeptrai"
     }
+  },
+  {
+    "id": "doan-vu-ha-anh",
+    "name": "Đoàn Vũ Hà Anh",
+    "title": "Future Data Scientist",
+    "image": "img/doan-vu-ha-anh.jpg",
+    "email": "david.pham@email.com",
+    "phone": "(123) 456-7891",
+    "location": "New York, NY",
+    "profile": "Data enthusiast building machine learning models.",
+    "skills": [
+      {"name": "Python", "level": 95},
+      {"name": "SQL", "level": 80}
+    ],
+    "experience": [],
+    "education": [],
+    "social": {}
+  },
+  {
+    "id": "mai-doan-trung-kien",
+    "name": "Mai Đoàn Trung Kiên",
+    "title": "Backend Developer",
+    "image": "img/mai-doan-trung-kien.jpg",
+    "email": "michael.t@email.com",
+    "phone": "(123) 456-7892",
+    "location": "Austin, TX",
+    "profile": "Passionate about building scalable backend systems.",
+    "skills": [
+      {"name": "Node.js", "level": 90},
+      {"name": "MongoDB", "level": 85}
+    ],
+    "experience": [],
+    "education": [],
+    "social": {}
+  },
+  {
+    "id": "tran-nguyen-duc-anh",
+    "name": "Trần Nguyễn Đức Anh",
+    "title": "UX/UI Designer",
+    "image": "img/tran-nguyen-duc-anh.jpg",
+    "email": "sarah.lee@email.com",
+    "phone": "(123) 456-7893",
+    "location": "Seattle, WA",
+    "profile": "Designing intuitive interfaces for better user experiences.",
+    "skills": [
+      {"name": "Figma", "level": 95},
+      {"name": "Adobe XD", "level": 80}
+    ],
+    "experience": [],
+    "education": [],
+    "social": {}
+  },
+  {
+    "id": "dao-quang-minh",
+    "name": "Dao Quang Minh",
+    "title": "Frontend Developer",
+    "image": "img/quangminh.jpg",
+    "email": "dquangminh0103@email.com",
+    "phone": "0971653005",
+    "location": "Hanoi, Vietnam",
+    "profile": "Designing interfaces and user experiences",
+    "skills": [
+      {"name": "ReactJS", "level": 90},
+      {"name": "TailwindCSS", "level": 85}
+    ],
+    "experience": [
+      {
+        "role": "Full-stack Developer",
+        "company": "Interview Management App",
+        "time": "2025",
+        "desc": [
+          "Built a full-stack interview management application using Next.js and TypeScript.",
+          "Designed modern, responsive user interfaces with TailwindCSS.",
+          "Deployed the application on Vercel at interview-app-olive-phi.vercel.app.",
+          "GitHub: https://github.com/minhgtr25/interview-app"
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Portfolio Website",
+        "time": "2025",
+        "desc": [
+          "Developed a personal Portfolio website using Vite, TypeScript and CSS.",
+          "Converted Figma designs into code with a professional interface.",
+          "Deployed the application on Vercel at duc-portfolio-seven.vercel.app.",
+          "GitHub: https://github.com/minhgtr25/Duc-Portfolio"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "High School Student",
+        "school": "Nguyen Gia Thieu High School",
+        "time": "2020 - 2023"
+      },
+      {
+        "degree": "University Student",
+        "school": "FPT University",
+        "time": "2023 - Present"
+      }
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/minhgtr25/",
+      "gmail": "dquangminh0103@gmail.com"
+    }
+  },
+  {
+    "id": "lam-bach",
+    "name": "Lâm Bách",
+    "title": "Full Stack Developer",
+    "image": "img/lam-bach.jpg",
+    "email": "lambach3122004@gmail.com",
+    "phone": "(84) 373126666",
+    "location": "Ha Noi, Viet Nam",
+    "profile": "Hesitation is defeat",
+    "skills": [
+      {"name": "Java", "level": 95},
+      {"name": "MySQL", "level": 90}
+    ],
+    "experience": [],
+    "education": [
+      {
+        "degree": "High School Student",
+        "time": "2020 - 2023"
+      },
+      {
+        "degree": "University Student",
+        "school": "FPT University",
+        "time": "2023 - Present"
+      }
+    ],
+    "social": {
+      "github": "https://github.com/BachL312"
+    }
+  },
+  {
+  "id": "hoang-duc-thuan",
+  "name": "Hoàng Đức Thuận",
+  "title": "Java Intern",
+  "image": "img/hoang-duc-thuan.png",
+  "email": "thuanhdhe186818@fpt.edu.vn",
+  "phone": "0777560391",
+  "location": "Hoa Lac, Hanoi",
+  "profile": "Actively seeking a challenging environment to leverage my Back-end expertise in Spring Boot, database optimization, and robust APIs. My goal is to contribute to building scalable, high-impact software solutions that deliver practical business value.",
+  "skills": [
+    {"name": "Java Core", "level": 85},
+    {"name": "Spring Boot / Spring MVC / JPA", "level": 80},
+    {"name": "MySQL / SQL Server", "level": 75},
+    {"name": "HTML/CSS, Javascript", "level": 70}
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Developer (Personal Project)",
+      "company": "Website hệ thống Quản Lý Bất Động Sản",
+      "time": "",
+      "desc": [
+        "Authentication: User login system with Role-Based Access Control.",
+        "Building Management: Search, add, edit, delete, and assign buildings.",
+        "Customer Management: Search, add, edit, delete, and assign customers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Major: Software Engineering",
+      "school": "FPT University Hanoi",
+      "time": "2022 - 2027"
+    }
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/hoang-duc-thuan-undefined-7582b430b/",
+    "github": "github.com/thuan1712"
   }
+}
 ]
