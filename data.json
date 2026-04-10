@@ -108,13 +108,13 @@
   },
   {
     "id": "dao-quang-minh",
-    "name": "Đào Quang Minh",
+    "name": "Dao Quang Minh",
     "title": "Frontend Developer",
     "image": "img/quangminh.jpg",
     "email": "dquangminh0103@email.com",
     "phone": "0971653005",
-    "location": "Hà Nội, Việt Nam",
-    "profile": "Thiết kế giao diện và trải nghiệm người dùng",
+    "location": "Hanoi, Vietnam",
+    "profile": "Designing interfaces and user experiences",
     "skills": [
       {"name": "ReactJS", "level": 90},
       {"name": "TailwindCSS", "level": 85}
@@ -125,9 +125,9 @@
         "company": "Interview Management App",
         "time": "2025",
         "desc": [
-          "Xây dựng ứng dụng quản lý phỏng vấn full-stack sử dụng Next.js và TypeScript.",
-          "Thiết kế giao diện người dùng hiện đại, responsive với TailwindCSS.",
-          "Triển khai ứng dụng lên Vercel tại interview-app-olive-phi.vercel.app.",
+          "Built a full-stack interview management application using Next.js and TypeScript.",
+          "Designed modern, responsive user interfaces with TailwindCSS.",
+          "Deployed the application on Vercel at interview-app-olive-phi.vercel.app.",
           "GitHub: https://github.com/minhgtr25/interview-app"
         ]
       },
@@ -136,23 +136,23 @@
         "company": "Portfolio Website",
         "time": "2025",
         "desc": [
-          "Phát triển trang web Portfolio cá nhân sử dụng Vite, TypeScript và CSS.",
-          "Chuyển đổi từ thiết kế Figma sang code với giao diện chuyên nghiệp.",
-          "Triển khai ứng dụng lên Vercel tại duc-portfolio-seven.vercel.app.",
+          "Developed a personal Portfolio website using Vite, TypeScript and CSS.",
+          "Converted Figma designs into code with a professional interface.",
+          "Deployed the application on Vercel at duc-portfolio-seven.vercel.app.",
           "GitHub: https://github.com/minhgtr25/Duc-Portfolio"
         ]
       }
     ],
     "education": [
       {
-        "degree": "Học sinh",
-        "school": "THPT Nguyễn Gia Thiều",
+        "degree": "High School Student",
+        "school": "Nguyen Gia Thieu High School",
         "time": "2020 - 2023"
       },
       {
-        "degree": "Sinh viên",
-        "school": "Đại học FPT",
-        "time": "2023 - Nay"
+        "degree": "University Student",
+        "school": "FPT University",
+        "time": "2023 - Present"
       }
     ],
     "social": {
