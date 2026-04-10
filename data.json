@@ -88,19 +88,56 @@
   {
     "id": "dao-quang-minh",
     "name": "Đào Quang Minh",
-    "title": "DevOps Engineer",
-    "image": "img/dao-quang-minh.jpg",
-    "email": "kevin.h@email.com",
-    "phone": "(123) 456-7894",
-    "location": "Denver, CO",
-    "profile": "Streamlining deployment and operations.",
+    "title": "Frontend Developer",
+    "image": "img/quangminh.jpg",
+    "email": "dquangminh0103@email.com",
+    "phone": "0971653005",
+    "location": "Hà Nội, Việt Nam",
+    "profile": "Thiết kế giao diện và trải nghiệm người dùng",
     "skills": [
-      {"name": "Docker", "level": 90},
-      {"name": "AWS", "level": 85}
+      {"name": "ReactJS", "level": 90},
+      {"name": "TailwindCSS", "level": 85}
     ],
-    "experience": [],
-    "education": [],
-    "social": {}
+    "experience": [
+      {
+        "role": "Full-stack Developer",
+        "company": "Interview Management App",
+        "time": "2025",
+        "desc": [
+          "Xây dựng ứng dụng quản lý phỏng vấn full-stack sử dụng Next.js và TypeScript.",
+          "Thiết kế giao diện người dùng hiện đại, responsive với TailwindCSS.",
+          "Triển khai ứng dụng lên Vercel tại interview-app-olive-phi.vercel.app.",
+          "GitHub: https://github.com/minhgtr25/interview-app"
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Portfolio Website",
+        "time": "2025",
+        "desc": [
+          "Phát triển trang web Portfolio cá nhân sử dụng Vite, TypeScript và CSS.",
+          "Chuyển đổi từ thiết kế Figma sang code với giao diện chuyên nghiệp.",
+          "Triển khai ứng dụng lên Vercel tại duc-portfolio-seven.vercel.app.",
+          "GitHub: https://github.com/minhgtr25/Duc-Portfolio"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Học sinh",
+        "school": "THPT Nguyễn Gia Thiều",
+        "time": "2020 - 2023"
+      },
+      {
+        "degree": "Sinh viên",
+        "school": "Đại học FPT",
+        "time": "2023 - Nay"
+      }
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/minhgtr25/",
+      "gmail": "dquangminh0103@gmail.com"
+    }
   },
   {
     "id": "lam-bach",
